@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+header {
+    height: 130px;
+   }
+
+
+
+.nav li{
+    list-style-type: none;
+    float: left;
+    line-height: 80px;
+    width: 100px;
+    text-align: center;
+}
+
+.nav li a{
+    display: block;
+    font-size: 16px;
+    font-family: "微软雅黑";
+}
+
+.nav a:link,.nav a:visited{
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+.nav a:hover,.nav a:active{
+    color: #FFFFFF;
+    background-color: #be3948;
+}
